@@ -47,6 +47,16 @@
               "remedy": "Refer to user manual section 4.2"
             }
           ]
+        },
+        {
+          "name": "GitHub Test",
+          "faults": [
+            {
+              "code": "777",
+              "description": "Test Github Server",
+              "remedy": "Retrieves Data from Github Server"
+            }
+          ]
         }
       ]
     }
