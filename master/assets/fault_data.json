@@ -1,0 +1,54 @@
+{
+  "manufacturers": [
+    {
+      "name": "Siemens",
+      "categories": [
+        {
+          "name": "PLC",
+          "categories": [
+            {
+              "name": "S7-300",
+              "faults": [
+                {
+                  "code": "F001",
+                  "description": "Input module error",
+                  "remedy": "Check wiring, replace module."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "VFD",
+          "categories": [
+            {
+              "name": "SINAMICS G120",
+              "faults": [
+                {
+                  "code": "2201",
+                  "description": "Overcurrent",
+                  "remedy": "Check motor leads, reduce accel time."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Allen-Bradley",
+      "categories": [
+        {
+          "name": "MicroLogix",
+          "faults": [
+            {
+              "code": "1200",
+              "description": "Major fault",
+              "remedy": "Refer to user manual section 4.2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
